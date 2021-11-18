@@ -1,0 +1,85 @@
+
+.wrapperMain{
+    border: 1px solid black;
+    margin: 0 auto;
+    max-width: 450px;
+    min-height: 100vh;
+}
+header{
+    font-family: Roboto1;
+    color: white;
+    background-color: #161616;
+    width: 100%;
+    //min-height: 100px;
+    height: 120px;
+    margin-top: 0px;
+    overflow: hidden;
+    //text-align: center;
+    position: relative;
+}
+.headLine{
+    
+}
+h1{
+    font-size: 1.5em;
+    margin: auto;
+    margin-top: 20px;
+    float: right;
+    color: white;
+    
+}
+.Logo {
+    width: 50px;
+ //   margin-left: 25%;
+    float: left;
+    margin-top: 10px;
+
+        
+}
+.Strich {
+    width: 1.5px;
+    margin: 5px 10px auto 10px;
+    float: left;
+}
+.LogoFont{
+    //border: 1px solid white;
+    height: 70px;
+    width: 193px;
+    //margin-left: 90px;
+    //margin-right: 20%;
+    margin: 40px auto 0 auto;
+}
+
+.Striche{
+    width: 35px;
+    position: absolute;
+    top: 55px;
+    left: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+.platzhalter{
+    float: left;
+    width: 40%;   
+    margin: 20px 5px 10px 20px;
+    
+}
+.platzhalter02{
+    float: right;
+    width: 40%;   
+    margin: 20px 20px 10px 5px;
+}
+
+
+
+
+
+
+
+
+
