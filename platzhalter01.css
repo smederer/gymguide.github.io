@@ -97,17 +97,19 @@ p1{
 }
 p2{
     font-family: Roboto2;
+    display: none;
 }
 
-.aufwärmenvideo{
+.aufwaermenvideo{
 position: relative;
   width: 100%;
   padding-bottom: 56.25%; 
   height: 0;
   margin-bottom: 10px;
   margin-top: 20px;
+    display: none;
 }
-.aufwärmenvideo iframe{
+.aufwaermenvideo iframe{
   position: absolute;
   top:0;
   left: 0;
@@ -115,5 +117,5 @@ position: relative;
   height: 100%; 
 }
 .aufwärmentoggle{
-    display: none;
+
 }

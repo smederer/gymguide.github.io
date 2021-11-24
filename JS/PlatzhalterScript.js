@@ -11,6 +11,6 @@ $(document).ready(function () {
 $(document).ready(function () {
     "use strict";
     $(".aufwärmen").click(function () {
-        $(".aufwärmentoggle").slideToggle();
+        $(".aufwaermenvideo,p2").slideToggle();
     });
 });
