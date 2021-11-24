@@ -45,13 +45,13 @@ h1{
     width: 193px;
     //margin-left: 90px;
     //margin-right: 20%;
-    margin: 40px auto 0 auto;
+    margin: 30px auto 10px auto;
 }
 
 .Striche{
     width: 35px;
     position: absolute;
-    top: 55px;
+    top: 45px;
     left: 10px;
 }
 
@@ -63,13 +63,37 @@ h1{
 .wrapperText{ 
     //border: 2px solid black;
     margin: 20px;
+    position: relative;
 }
+h2{
+    text-align: center;
+    font-family: Roboto1;
+    font-size: 1.5em;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 8px solid #FECD25;
+}
+
+.containerZusammenfassung{
+    //display: flex;
+    //width: 100%;
+}
+
+.zusammenfassungArrow{
+    float: right;
+    margin-top: 10px;
+    transform: rotate(0deg);
+    
+}
+
 h6{
     font-family: Roboto1;
     font-size: 1.3em;
-    margin-top: 20px;
     cursor: pointer;
+    display: inline;
+    line-height: 50px;
 }
+
 
 p1{
     font-family: Roboto2;
@@ -94,6 +118,11 @@ p1{
   height: 100%;
   
 }
+.aufwaermenArrow{
+    float: right;
+    margin-top: 10px
+}
+
 
 p2{
     font-family: Roboto2;
