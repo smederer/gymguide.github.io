@@ -4,13 +4,13 @@
 $(document).ready(function () {
     "use strict";
     $(".zusammenfassung").click(function () {
-        $(".zusammenfassungtoggle").slideToggle();
+        $(".zusammenfassungvideo,p1").slideToggle();
     });
 });
 
 $(document).ready(function () {
     "use strict";
-    $(".aufwärmen").click(function () {
+    $(".aufwaermen").click(function () {
         $(".aufwaermenvideo,p2").slideToggle();
     });
 });
