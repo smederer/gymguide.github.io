@@ -8,13 +8,7 @@
         <link rel="stylesheet" href="fonts.css">
         <link rel="stylesheet" href="platzhalter01.css">
         <script src="JS/jquery-3.6.0.min.js"></script>
-         <script>
-        $(document).ready(function() {
-            $("h6").click(function() {
-                $("p1,.iframe-container").slideToggle();
-            });
-        });
-        </script>
+        <script src="JS/PlatzhalterScript.js"></script>
     </head>
     <body>
         <div class="wrapperMain">
@@ -41,15 +35,30 @@
             </header>
             <main>
                 <div class="wrapperText">
-                    <h6>Zusammenfassung</h6>
                     
-                        <div class="iframe-container">
+                    <h6 class="zusammenfassung">Zusammenfassung</h6>
+                    
+                    <div class="zusammenfassungtoggle">
+                            <div class="zusammenfassungvideo">
                         	<iframe src="https://www.youtube.com/embed/9YffrCViTVk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                    
+                            <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna         aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            </p1>
+                    </div>
+                    
+                    <h6 class="aufwärmen">Aufwärmen</h6>
+                    
+                    <div class="aufwärmentoggle">
+                        <div class="aufwärmenvideo">
+                        <iframe src="https://www.youtube.com/embed/kic4EeXOfNw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
+                        
+                        <p2>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p2>
+                    </div>
                     
-                    <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p1>
-                    
-                    <h6>Zusammenfassung</h6>
                     
                 </div>
             </main>
