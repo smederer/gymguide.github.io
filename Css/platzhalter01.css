@@ -4,7 +4,9 @@
     margin: 0 auto;
     max-width: 450px;
     min-height: 100vh;
+    
 }
+
 header{
     font-family: Roboto1;
     color: white;
@@ -21,9 +23,11 @@ header{
 h1{
     font-size: 1.5em;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 25px;
     float: right;
     color: white;
+    
+    
     
 }
 .Logo {
@@ -42,10 +46,11 @@ h1{
 .LogoFont{
     //border: 1px solid white;
     height: 70px;
-    width: 193px;
+    width: 197px;
     //margin-left: 90px;
     //margin-right: 20%;
     margin: 30px auto 10px auto;
+    
 }
 
 .Striche{
@@ -72,6 +77,14 @@ h2{
     margin-top: 30px;
     padding-bottom: 30px;
     border-bottom: 8px solid #FECD25;
+    
+}
+.bench{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  
 }
 
 .containerZusammenfassung{
@@ -82,7 +95,7 @@ h2{
 .zusammenfassungArrow{
     float: right;
     margin-top: 10px;
-    transform: rotate(0deg);
+    //transform: rotate(0deg);
     
 }
 

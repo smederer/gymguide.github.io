@@ -3,22 +3,56 @@
 /*global $, document*/
 $(document).ready(function () {
     "use strict";
+    
+    var x = true;
     $(".zusammenfassung").click(function () {
-        $(".zusammenfassungvideo,p1").slideToggle();
+        if (x === true) {
+            $(".zusammenfassungvideo,p1").slideDown();
+            $(".zusammenfassungArrow").rotate({
+                duration: 800,
+                angle: 0,
+                animateTo: 90
+            });
+            x = false;
+        } else {
+            $(".zusammenfassungvideo,p1").slideUp();
+            $(".zusammenfassungArrow").rotate({
+                duration: 800,
+                angle: 90,
+                animateTo: 0
+            });
+            x = true;
+            
+        }
     });
-    $(".zusammenfassung").click(function () {
-        var angle = 0;
-        setInterval(function () {
-            angle += 90;
-            $(".zusammenfassungArrow").rotate(angle);
-        });
-    });
+    
+    
+    
 
-
-
+    var z = true;
+    
+    
     $(".aufwaermen").click(function () {
-        $(".aufwaermenvideo,p2").slideToggle();
-        
+        if (x === true) {
+            $(".aufwaermenvideo,p2").slideDown();
+            $(".aufwaermenArrow").rotate({
+                duration: 800,
+                angle: 0,
+                animateTo: 90
+            });
+            x = false;
+        } else {
+            $(".aufwaermenvideo,p2").slideUp();
+            $(".aufwaermenArrow").rotate({
+                duration: 800,
+                angle: 90,
+                animateTo: 0
+            });
+            x = true;
+        }
     });
+    
+   
+
     
 }); //ready end
