@@ -28,19 +28,19 @@ $(document).ready(function () {
     
     
     
-
+    
     var z = true;
     
     
     $(".aufwaermen").click(function () {
-        if (x === true) {
+        if (z === true) {
             $(".aufwaermenvideo,p2").slideDown();
             $(".aufwaermenArrow").rotate({
                 duration: 800,
                 angle: 0,
                 animateTo: 90
             });
-            x = false;
+            z = false;
         } else {
             $(".aufwaermenvideo,p2").slideUp();
             $(".aufwaermenArrow").rotate({
@@ -48,7 +48,7 @@ $(document).ready(function () {
                 angle: 90,
                 animateTo: 0
             });
-            x = true;
+            z = true;
         }
     });
     
