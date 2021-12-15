@@ -10,8 +10,8 @@ header{
     color: white;
     background-color: #161616;
     width: 100%;
-    //min-height: 100px;
-    height: 120px;
+    
+    height: 90px;
     margin-top: 0px;
     overflow: hidden;
     //text-align: center;
@@ -47,13 +47,13 @@ h1{
     width: 193px;
     //margin-left: 90px;
     //margin-right: 20%;
-    margin: 40px auto 0 auto;
+    margin: 10px auto auto auto;
 }
 
 .Striche{
     width: 35px;
     position: absolute;
-    top: 55px;
+    top: 25px;
     left: 10px;
 }
 

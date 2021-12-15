@@ -3,7 +3,7 @@
     border: 1px solid black;
     margin: 0 auto;
     max-width: 450px;
-    min-height: 100vh;
+    min-height: 300vh;
     
     
 }
@@ -13,12 +13,11 @@ header{
     color: white;
     background-color: #161616;
     width: 100%;
-    height: 120px;
+    height: 90px;
     max-width: 450px;
-    
-    overflow: hidden;
     position: fixed;
     z-index: 99;
+    top: 0px;
 }
 
 h1{
@@ -46,18 +45,16 @@ h1{
 }
 .LogoFont{
     //border: 1px solid white;
-    height: 70px;
-    width: 197px;
-    //margin-left: 90px;
-    //margin-right: 20%;
-    margin: 30px auto 10px auto;
+    height: 50px;
+    width: 50px;
+    margin: 10px auto auto auto;
     
 }
 
 .Striche{
     width: 35px;
     position: absolute;
-    top: 45px;
+    top: 25px;
     left: 10px;
 }
 
@@ -66,9 +63,10 @@ h1{
 }
 
 main{
-    overflow: auto;
-    margin-top: 120px;
+
     height: 100vh;
+    position: relative;
+    margin-top: 120px;
     
 }
 
@@ -78,12 +76,13 @@ main{
     position: relative;
 }
 h2{
-    text-align: center;
+    width: 130px;
     font-family: Roboto1;
-    font-size: 1.5em;
-    margin-top: 30px;
-    padding-bottom: 30px;
-    border-bottom: 8px solid #FECD25;
+    font-size: 1.6em;
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-bottom: 7px solid #FECD25;
     
 }
 .bench{
@@ -93,31 +92,24 @@ h2{
     margin-top: 20px;
   
 }
-
-.containerZusammenfassung{
-    //display: flex;
-    //width: 100%;
+.hyperlinks{
+    margin: 20px auto 20px auto;
 }
 
-.zusammenfassungArrow{
-    float: right;
-    margin-top: 10px;
-    //transform: rotate(0deg);
-    
-}
+
 
 h6{
     font-family: Roboto1;
-    font-size: 1.3em;
+    font-size: 1.2em;
     cursor: pointer;
     display: inline;
     line-height: 50px;
+    border-bottom: 5px solid #FECD25;
 }
 
 
 p1{
     font-family: Roboto2;
-    display: none;
     
 }
 
@@ -128,7 +120,6 @@ p1{
   height: 0;
   margin-bottom: 10px;
   margin-top: 20px;
-    display: none;
 }
 .zusammenfassungvideo iframe{
   position: absolute;
@@ -138,15 +129,11 @@ p1{
   height: 100%;
   
 }
-.aufwaermenArrow{
-    float: right;
-    margin-top: 10px
-}
+
 
 
 p2{
     font-family: Roboto2;
-    display: none;
 }
 
 .aufwaermenvideo{
@@ -156,7 +143,7 @@ position: relative;
   height: 0;
   margin-bottom: 10px;
   margin-top: 20px;
-    display: none;
+
 }
 .aufwaermenvideo iframe{
   position: absolute;
@@ -166,9 +153,16 @@ position: relative;
   height: 100%;
 }
 .gotop{
-    position: fixed;
-    bottom: 0px;
+    position: absolute;
     right: 0;
+
+}
+
+.gotopcontainer{
+    position: fixed;
+     width: 100%;
+    max-width: 450px;
+    bottom: 16px;
 }
 
 
