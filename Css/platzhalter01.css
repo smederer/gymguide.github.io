@@ -92,10 +92,36 @@ h2{
     margin-top: 20px;
   
 }
+p{
+    font-family: Roboto2;
+    width: 279px;
+    margin: auto;
+    margin-top: 20px;
+}
 .hyperlinks{
-    margin: 20px auto 20px auto;
+    margin: 20px auto;
+    width: 279px;
+    padding-bottom: 50px;
+      
 }
 
+
+.hyperlinkAe{
+    width: 70px;
+    border: 3px solid black;
+    border-radius: 15px;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.hyperlinkAe:focus{
+    outline: none !important;
+}
 
 
 h6{
