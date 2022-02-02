@@ -113,14 +113,14 @@ p{
     border: 3px solid black;
     border-radius: 15px;
     outline: none;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    
 }
+
+.hyperlinkAe:hover {
+      box-shadow: 2px 2px 5px rgba(0,0,0,1);
+
+}  
 .hyperlinkAe:focus{
     outline: none !important;
 }
