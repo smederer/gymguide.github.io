@@ -104,26 +104,40 @@ p{
     margin: 20px auto;
     width: 279px;
     padding-bottom: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start; 
+    flex-direction:row;
+    flex-wrap: 0;
       
 }
 
 
 .hyperlinkAe{
+    margin: 5px;
     width: 70px;
     border: 3px solid black;
     border-radius: 15px;
     outline: none;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.30);
+  
+    
     
 }
 
+
 .hyperlinkAe:hover {
-      box-shadow: 2px 2px 5px rgba(0,0,0,1);
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    
+    
 
 }  
 .hyperlinkAe:focus{
-    outline: none !important;
+    transform: scale(2);
 }
+
+
+
 
 
 h6{
