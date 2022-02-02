@@ -8,6 +8,7 @@ $(document).ready(function () {
     }
     );
     $("#hyperlinkAuf").click(function(){
+    
         $("#hyperlinkAuf").css({
             border: '3px solid #FECD25'
         }).fadeToggle(100).fadeToggle(100);  
@@ -20,7 +21,7 @@ $(document).ready(function () {
     $("#hyperlinkVo").click(function(){
         $("#hyperlinkVo").css({
             border: '3px solid #FECD25'
-        }).fadeToggle(100).fadeToggle(100);  
+        }).fadeToggle(100).fadeToggle(100); 
     })
     
    

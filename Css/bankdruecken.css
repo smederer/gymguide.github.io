@@ -8,6 +8,7 @@
     
 }
 
+
 header{
     font-family: Roboto1;
     color: white;
@@ -16,7 +17,7 @@ header{
     height: 90px;
     max-width: 450px;
     position: fixed;
-    z-index: 99;
+    z-index: 90;
     top: 0px;
 }
 
@@ -70,13 +71,14 @@ main{
     
 }
 
+
 .wrapperText{ 
     //border: 2px solid black;
     margin: 20px;
     position: relative;
 }
 h2{
-    width: 130px;
+    width: 170px;
     font-family: Roboto1;
     font-size: 1.6em;
     text-align: right;
@@ -139,7 +141,7 @@ p1{
     
 }
 
-.zusammenfassungvideo{
+.aufwaermenVideo{
   position: relative;
   width: 100%;
   padding-bottom: 56.25%; 
@@ -147,7 +149,7 @@ p1{
   margin-bottom: 10px;
   margin-top: 20px;
 }
-.zusammenfassungvideo iframe{
+.aufwaermenVideo iframe{
   position: absolute;
   top:0;
   left: 0;
@@ -162,7 +164,7 @@ p2{
     font-family: Roboto2;
 }
 
-.aufwaermenvideo{
+.vorbereitungVideo{
 position: relative;
   width: 100%;
   padding-bottom: 56.25%; 
@@ -171,24 +173,56 @@ position: relative;
   margin-top: 20px;
 
 }
-.aufwaermenvideo iframe{
+.vorbereitungVideo iframe{
   position: absolute;
   top:0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-.gotop{
-    position: absolute;
-    right: 0;
+
+
+
+.ausfuehrungVideo{
+position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+  margin-bottom: 10px;
+  margin-top: 20px;
 
 }
+.ausfuehrungVideo iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
+
+
+
+
+
+
+
+
+
+.gotop{
+    position: absolute;
+    right: 20px;
+    
+
+}
+.gottoparrow{
+    width: 50px;
+}
 .gotopcontainer{
     position: fixed;
      width: 100%;
     max-width: 450px;
-    bottom: 16px;
+    top: 200px;
 }
 
 
