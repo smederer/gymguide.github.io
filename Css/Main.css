@@ -37,12 +37,15 @@ h1 {
   align-items: center;
   gap: 10px;
 }
+.nav-bar {
+  justify-content: center;
+}
 .nav-menu {
   position: fixed;
   top: -100%;
   display: flex;
   justify-content: center;
-  width: 450px;
+  width: 100%;
   text-align: center;
   flex-direction: column;
   background-color: #161616;
@@ -64,7 +67,7 @@ a {
   display: block;
   position: absolute;
   top: 34%;
-  right: 15%;
+  left: 10%;
 }
 .bar {
   display: block;
