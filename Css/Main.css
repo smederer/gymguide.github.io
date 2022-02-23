@@ -45,26 +45,27 @@ h1 {
   top: 0;
   position: fixed;
   left: -100%;
-  width: 80%;
+  width: 50%;
   height: 100%;
   flex-direction: column;
-  background-color: #161616;
+  background-color: #fecd25;
   transition: 0.3s;
   display: flex;
   align-items: center;
 }
-nav-item {
-  font-size: 1.7em;
-}
-.firt-nav-item {
+
+.first-nav-item {
   margin-top: 80px;
   font-size: 1.7em;
   padding: 20px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 .nav-item {
   padding: 20px;
   font-size: 1.7em;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
+
 .nav-menu.active {
   left: 0;
 }
@@ -72,6 +73,8 @@ nav-item {
 a {
   color: white;
   text-decoration: none;
+  border-style: solid;
+  border-bottom: 2px solid black;
 }
 
 .Hamburger {
