@@ -1,87 +1,93 @@
+.wrapperMain {
+  border: 1px solid black;
+  margin: 0 auto;
+  max-width: 450px;
+  min-height: 100vh;
+}
+header {
+  font-family: Roboto1;
+  color: white;
+  background-color: #161616;
+  width: 450px;
+  position: fixed;
+  height: 90px;
+  margin-top: 0px;
+  overflow: hidden;
+}
 
-.wrapperMain{
-    border: 1px solid black;
-    margin: 0 auto;
-    max-width: 450px;
-    min-height: 100vh;
-}
-header{
-    font-family: Roboto1;
-    color: white;
-    background-color: #161616;
-    width: 100%;
-    
-    height: 90px;
-    margin-top: 0px;
-    overflow: hidden;
-    //text-align: center;
-    position: relative;
-}
-.headLine{
-    
-}
-h1{
-    font-size: 1.5em;
-    margin: auto;
-    margin-top: 20px;
-    float: right;
-    color: white;
-    
+h1 {
+  font-size: 1.5em;
+  float: right;
+  color: white;
 }
 .Logo {
-    width: 50px;
- //   margin-left: 25%;
-    float: left;
-    margin-top: 10px;
-
-        
+  width: 50px;
 }
 .Strich {
-    width: 1.5px;
-    margin: 5px 10px auto 10px;
-    float: left;
+  width: 1.5px;
 }
-.LogoFont{
-    //border: 1px solid white;
-    height: 70px;
-    width: 193px;
-    //margin-left: 90px;
-    //margin-right: 20%;
-    margin: 10px auto auto auto;
+.LogoFont {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
-
-.Striche{
-    width: 35px;
-    position: absolute;
-    top: 25px;
-    left: 10px;
+.nav-menu {
+  position: fixed;
+  top: -100%;
+  display: flex;
+  justify-content: center;
+  width: 450px;
+  text-align: center;
+  flex-direction: column;
+  background-color: #161616;
+  transition: 0.3s;
 }
-
-.clear{
-    clear: both;
+.nav-item {
+  margin: 20px 0px;
 }
-
-
-
-.platzhalter{
-    float: left;
-    width: 40%;   
-    margin: 20px 5px 10px 20px;
-    box-shadow: 20px 20px 20px;
-    
-    
-}
-.platzhalter02{
-    float: right;
-    width: 40%;   
-    margin: 20px 20px 10px 5px;
+.nav-menu.active {
+  top: 0;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
 
+.Hamburger {
+  display: block;
+  position: absolute;
+  top: 34%;
+  right: 5%;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: white;
+}
+.Hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+.Hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.Hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
 
-
-
-
-
-
-
+.platzhalter {
+  float: left;
+  width: 40%;
+  margin: 20px 5px 10px 20px;
+  box-shadow: 20px 20px 20px;
+}
+.platzhalter02 {
+  float: right;
+  width: 40%;
+  margin: 20px 20px 10px 5px;
+}
