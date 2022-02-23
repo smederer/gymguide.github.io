@@ -14,6 +14,9 @@ header {
   margin-top: 0px;
   overflow: hidden;
 }
+main {
+  margin-top: 90px;
+}
 
 h1 {
   font-size: 1.5em;
@@ -61,7 +64,7 @@ a {
   display: block;
   position: absolute;
   top: 34%;
-  right: 5%;
+  right: 15%;
 }
 .bar {
   display: block;
