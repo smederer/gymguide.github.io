@@ -1,98 +1,74 @@
 .wrapperMain {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   margin: 0 auto;
   max-width: 450px;
   min-height: 100vh;
   transition: 0.5s;
 }
-/*.wrapperMain.active {
-  background-color: black;
-}*/
+
 header {
   font-family: Roboto1;
   background-color: #161616;
   width: 450px;
   position: fixed;
   height: 90px;
-  margin-top: 0px;
+  top: 0;
   overflow: hidden;
 }
-main {
-  margin-top: 90px;
-}
-
-h1 {
-  font-size: 1.5em;
-  float: right;
-  color: white;
-}
-.Logo {
-  width: 50px;
-}
-.Strich {
-  width: 1.5px;
-}
-.LogoFont {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
 .nav-menu {
-  top: 0;
   position: fixed;
-  left: -100%;
   top: -100%;
   width: 100%;
-  height: auto;
+  height: 100%;
   flex-direction: column;
-  background-color: #fecd25;
+  background-color: #2b2d2f;
   transition: 0.3s;
   display: flex;
-  align-items: center;
-  /*align-items: flex-start;*/
-  border-radius: 0px 40px 40px 40px;
-  box-shadow: 0px 0px 2px 1px inset;
+  /*align-items: center;*/
+  align-items: flex-start;
+  /*border-radius: 0px 40px 40px 40px;*/
+  border-top: 1px solid #fecd25;
 }
-
+.line {
+  margin-top: 10px;
+  display: block;
+  height: 1px;
+  width: 70vw;
+  background-color: #fecd25;
+}
 .first-nav-item {
-  margin-top: 80px;
-  font-size: 1.7em;
-  padding: 40px;
+  font-size: 1.2em;
+  padding: 10px 70px;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 .nav-item {
-  padding: 40px;
-  font-size: 1.7em;
+  padding: 10px 70px;
+  font-size: 1.2em;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 .last-nav-item {
   margin-bottom: 80px;
-  padding: 40px;
-  font-size: 1.7em;
+  padding: 10px 70px;
+  font-size: 1.2em;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .nav-menu.active {
-  left: 0;
-  top: 0;
+  top: 90px;
 }
 
-a {
+.nav-link {
   color: white;
   text-decoration: none;
-  /*border-style: solid;
-  border-bottom: 2px solid black;*/
+  /*border-style: solid;*/
 }
 
 .Hamburger {
   display: block;
   position: absolute;
   top: 34%;
-  left: 10%;
+  left: 5%;
+  z-index: 10;
 }
 .bar {
   display: block;
@@ -111,7 +87,38 @@ a {
 .Hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
-.blackbackground {
+
+main {
+  margin-top: 90px;
+}
+
+h1 {
+  font-size: 1.5em;
+  float: right;
+  color: white;
+}
+.Logo {
+  width: 50px;
+}
+.Strich {
+  width: 1.5px;
+}
+.LogoFont {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #161616;
+  transition: 0.3s;
+}
+.LogoFont.active {
+  background-color: #2b2d2f;
+}
+
+/*.blackbackground {
   display: none;
   position: fixed;
   top: 0;
@@ -125,7 +132,7 @@ a {
   opacity: 90%;
   width: 100%;
   display: flex;
-}
+}*/
 
 .platzhalter {
   float: left;
