@@ -1,7 +1,7 @@
 $(document).ready(function () {
   const hamburger = document.querySelector(".Hamburger");
   const navMenu = document.querySelector(".nav-menu");
-  const BC = document.querySelector(".wrapperMain");
+  const BC = document.querySelector(".blackbackground");
 
   hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");

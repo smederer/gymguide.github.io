@@ -5,9 +5,9 @@
   min-height: 100vh;
   transition: 0.5s;
 }
-.wrapperMain.active {
+/*.wrapperMain.active {
   background-color: black;
-}
+}*/
 header {
   font-family: Roboto1;
   background-color: #161616;
@@ -45,36 +45,40 @@ h1 {
   top: 0;
   position: fixed;
   left: -100%;
-  width: 50%;
-  height: 100%;
+  top: -100%;
+  width: 40%;
+  height: 45%;
   flex-direction: column;
   background-color: #fecd25;
   transition: 0.3s;
   display: flex;
   align-items: center;
+  /*align-items: flex-start;*/
+  border-radius: 0px 20px 20px 20px;
 }
 
 .first-nav-item {
   margin-top: 80px;
   font-size: 1.7em;
-  padding: 20px;
+  padding: 15px;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 .nav-item {
-  padding: 20px;
+  padding: 15px;
   font-size: 1.7em;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .nav-menu.active {
   left: 0;
+  top: 0;
 }
 
 a {
   color: white;
   text-decoration: none;
-  border-style: solid;
-  border-bottom: 2px solid black;
+  /*border-style: solid;
+  border-bottom: 2px solid black;*/
 }
 
 .Hamburger {
@@ -99,6 +103,21 @@ a {
 }
 .Hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
+}
+.blackbackground {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: 0.3s;
+  height: 100%;
+  width: 100%;
+}
+.blackbackground.active {
+  background-color: black;
+  opacity: 90%;
+  width: 100%;
+  display: flex;
 }
 
 .platzhalter {
