@@ -46,25 +46,32 @@ h1 {
   position: fixed;
   left: -100%;
   top: -100%;
-  width: 40%;
-  height: 45%;
+  width: 100%;
+  height: auto;
   flex-direction: column;
   background-color: #fecd25;
   transition: 0.3s;
   display: flex;
   align-items: center;
   /*align-items: flex-start;*/
-  border-radius: 0px 20px 20px 20px;
+  border-radius: 0px 40px 40px 40px;
+  box-shadow: 0px 0px 2px 1px inset;
 }
 
 .first-nav-item {
   margin-top: 80px;
   font-size: 1.7em;
-  padding: 15px;
+  padding: 40px;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 .nav-item {
-  padding: 15px;
+  padding: 40px;
+  font-size: 1.7em;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.last-nav-item {
+  margin-bottom: 80px;
+  padding: 40px;
   font-size: 1.7em;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
