@@ -38,8 +38,8 @@ header {
   width: 70vw;
   background-color: #fecd25;
   opacity: 0%;
-  transition: 0.5s;
-  transition-delay: 0.3s;
+  transition: 0.3s;
+  transition-delay: 0.2s;
 }
 .line.active {
   opacity: 100%;
