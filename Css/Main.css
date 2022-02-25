@@ -2,7 +2,8 @@
   /*border: 1px solid black;*/
   margin: 13vh auto;
   width: 100%;
-  height: 100vh;
+  height: 300vh;
+  display: block;
 }
 
 header {
@@ -142,13 +143,13 @@ h1 {
 .platzhalter {
   float: left;
   width: 40%;
-  margin: 20px 5px 10px 20px;
+  margin: 20px 20px 10px 50px;
   /*box-shadow: 20px 20px 20px;*/
 }
 .platzhalter02 {
   float: right;
   width: 40%;
-  margin: 20px 20px 10px 5px;
+  margin: 20px 50px 10px 20px;
 }
 @media (max-width: 600px) {
   .bar {
@@ -171,14 +172,14 @@ h1 {
   }
   .first-nav-item {
     font-size: 2.4em;
-    padding: 10px;
+    padding: 30px;
   }
   .nav-item {
-    padding: 10px;
+    padding: 30px;
     font-size: 2.4em;
   }
   .last-nav-item {
-    padding: 10px;
+    padding: 30px;
     font-size: 2.4em;
   }
   .line {
