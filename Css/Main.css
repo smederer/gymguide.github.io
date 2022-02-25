@@ -1,18 +1,19 @@
 .wrapperMain {
   /*border: 1px solid black;*/
-  margin: 0 auto;
-  max-width: 100vw;
-  min-height: 100vh;
+  margin: 13vh auto;
+  width: 100%;
+  height: 100vh;
 }
 
 header {
   font-family: Roboto1;
   background-color: #161616;
-  width: 100vw;
+  width: inherit;
   position: fixed;
   height: 13vh;
   top: 0;
   overflow: hidden;
+  display: table;
 }
 .nav-menu {
   position: fixed;
@@ -46,17 +47,17 @@ header {
 }
 .first-nav-item {
   font-size: 1.2em;
-  padding: 10px 70px;
+  padding: 10px;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 .nav-item {
-  padding: 10px 70px;
+  padding: 10px;
   font-size: 1.2em;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 .last-nav-item {
   margin-bottom: 80px;
-  padding: 10px 70px;
+  padding: 10px;
   font-size: 1.2em;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
@@ -109,8 +110,8 @@ h1 {
 }
 .LogoFont {
   position: absolute;
-  height: 100%;
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,4 +149,58 @@ h1 {
   float: right;
   width: 40%;
   margin: 20px 20px 10px 5px;
+}
+@media (max-width: 600px) {
+  .bar {
+    display: block;
+    width: 60px;
+    height: 5px;
+    margin: 13px auto;
+    background-color: white;
+    transition: 0.3s;
+  }
+  .Hamburger.active .bar:nth-child(1) {
+    transform: translateY(17px) rotate(45deg);
+  }
+  .Hamburger.active .bar:nth-child(3) {
+    transform: translateY(-17px) rotate(-45deg);
+  }
+
+  .nav-menu.active {
+    top: 25vh;
+  }
+  .first-nav-item {
+    font-size: 2.4em;
+    padding: 10px;
+  }
+  .nav-item {
+    padding: 10px;
+    font-size: 2.4em;
+  }
+  .last-nav-item {
+    padding: 10px;
+    font-size: 2.4em;
+  }
+  .line {
+    height: 2px;
+    width: 70vh;
+  }
+
+  header {
+    height: 25vh;
+  }
+  h1 {
+    font-size: 3.5em;
+    float: right;
+    color: white;
+  }
+  .Logo {
+    width: 116px;
+  }
+  .Strich {
+    width: 3.5px;
+  }
+  main {
+    margin-top: 25vh;
+  }
 }
