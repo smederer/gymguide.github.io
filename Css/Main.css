@@ -152,6 +152,9 @@ h1 {
   margin: 20px 50px 10px 20px;
 }
 @media (max-width: 600px) {
+  body {
+    background-color: green;
+  }
   .bar {
     display: block;
     width: 60px;
