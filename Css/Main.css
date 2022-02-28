@@ -94,10 +94,6 @@ header {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-main {
-  margin-top: 90px;
-}
-
 h1 {
   font-size: 1.5em;
   float: right;
@@ -149,14 +145,8 @@ a {
   margin: 5%;
 }
 @media (max-width: 600px) {
-  .platzhalter {
-    float: left;
-    width: 40%;
-    margin: 5%;
-    /*box-shadow: 20px 20px 20px;*/
-  }
   .platzhalter02 {
-    float: right;
+    float: left;
     width: 40%;
     margin: 5%;
   }
