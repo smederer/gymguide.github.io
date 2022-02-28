@@ -123,6 +123,9 @@ h1 {
 .LogoFont.active {
   background-color: #2b2d2f;
 }
+a {
+  text-decoration: none;
+}
 
 /*.blackbackground {
   display: none;
@@ -140,71 +143,21 @@ h1 {
   display: flex;
 }*/
 
-.platzhalter {
-  float: left;
-  width: 40%;
-  margin: 5%;
-  /*box-shadow: 20px 20px 20px;*/
-}
 .platzhalter02 {
-  float: right;
-  width: 40%;
+  float: left;
+  width: 15%;
   margin: 5%;
 }
-/*@media (max-width: 600px) {
-  body {
-    background-color: green;
+@media (max-width: 600px) {
+  .platzhalter {
+    float: left;
+    width: 40%;
+    margin: 5%;
+    /*box-shadow: 20px 20px 20px;*/
   }
-  .bar {
-    display: block;
-    width: 60px;
-    height: 5px;
-    margin: 13px auto;
-    background-color: white;
-    transition: 0.3s;
-  }
-  .Hamburger.active .bar:nth-child(1) {
-    transform: translateY(17px) rotate(45deg);
-  }
-  .Hamburger.active .bar:nth-child(3) {
-    transform: translateY(-17px) rotate(-45deg);
-  }
-
-  .nav-menu.active {
-    top: 25vh;
-  }
-  .first-nav-item {
-    font-size: 2.4em;
-    padding: 30px;
-  }
-  .nav-item {
-    padding: 30px;
-    font-size: 2.4em;
-  }
-  .last-nav-item {
-    padding: 30px;
-    font-size: 2.4em;
-  }
-  .line {
-    height: 2px;
-    width: 70vh;
-  }
-
-  header {
-    height: 25vh;
-  }
-  h1 {
-    font-size: 3.5em;
+  .platzhalter02 {
     float: right;
-    color: white;
+    width: 40%;
+    margin: 5%;
   }
-  .Logo {
-    width: 116px;
-  }
-  .Strich {
-    width: 3.5px;
-  }
-  main {
-    margin-top: 25vh;
-  }
-}*/
+}
