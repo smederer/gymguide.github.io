@@ -137,7 +137,7 @@ h1 {
 }*/
 
 .platzhalter02 {
-  float: right;
+  float: left;
   width: 15%;
   margin: 5%;
 }
@@ -145,8 +145,5 @@ h1 {
   .platzhalter02 {
     width: 40%;
     margin: 5%;
-  }
-  body {
-    background-color: yellow;
   }
 }
