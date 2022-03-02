@@ -1,7 +1,7 @@
 /*global $, document*/
 $(document).ready(function () {
   $.localScroll({
-    offset: -80,
+    offset: -95,
     duration: 400,
   });
   $("#hyperlinkAuf").click(function () {

@@ -16,53 +16,84 @@
         <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.yellow-lime.min.css"/>
         <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>-->
     <script src="JS/jquery-3.6.0.min.js"></script>
-    <script src="JS/jQueryRotate.js"></script>
+    <!--<script src="JS/jQueryRotate.js"></script>-->
     <script src="JS/jquery.scrollTo.min.js"></script>
     <script src="JS/jquery.localScroll.min.js"></script>
     <script src="JS/bankdrueckenScript.js"></script>
+    <script src="JS/burgerMenu.js"></script>
   </head>
   <body>
     <div class="wrapperMain" id="top">
       <header>
+
         <div class="LogoFont">
           <a href="index.html">
             <img class="Logo" src="Images/Logo-ICON2.png" alt="Logo" />
           </a>
         </div>
+        <div class = "nav-bar">
+          <ul class="nav-menu"> 
+           <li class="first-nav-item">
+               <a href="#" class="nav-link">Home<span class="line"></span></a>
+           </li>
+           
+           <li class="nav-item">
+               <a href="#" class="nav-link">Kontakt<span class="line"></span></a>
+           </li>
+           <li class="nav-item">
+               <a href="#" class="nav-link">Über<span class="line"></span></a>
+           </li>
+           <li class="nav-item">
+               <a href="#" class="nav-link">Ernährung<span class="line"></span></a>
+           </li>
+           <li class="nav-item">
+               <a href="#" class="nav-link">Trainingsplan<span class="line"></span></a>
+           </li>
+           <li class="last-nav-item">
+               <a href="#" class="nav-link">Filter<span class="line"></span></a>
+           </li>
+          </ul>
+      </div>
+      <div class="Hamburger">
+           <span class="bar"></span>
+           <span class="bar"></span>
+           <span class="bar"></span>
+       </div>
+        
 
-        <div class="clear"></div>
-
-        <img
+        <!--<img
           class="Striche"
           src="Images/Stripes_Zeichenfl%C3%A4che%201.png"
           alt="Striche"
-        />
+        />-->
       </header>
       <main>
         <h2>Bankdrücken</h2>
-        <img class="bench" src="Images/Bench.png" />
-        <!--<p>Trainert werden Quadriceps: Gerade Oberschenkelmuskeln, innere Oberschenkelmuskeln, mittlere Oberschenkelmuskeln, äußere Oberschenkelmuskeln  
-                </p>!-->
+        <div class="img_Hyplerlinks">
+          <img class="bench" src="Images/Bench.png" />
+          <!--<p>Trainert werden Quadriceps: Gerade Oberschenkelmuskeln, innere Oberschenkelmuskeln, mittlere Oberschenkelmuskeln, äußere Oberschenkelmuskeln  
+                  </p>!-->
 
-        <div class="hyperlinks">
-          <a href="#containerAufwaermen"
-            ><img
-              id="hyperlinkAuf"
-              class="hyperlinkAe"
-              src="Images/Aufwaermen02.png"
-          /></a>
-          <a href="#containerVorbereitung"
-            ><img
-              id="hyperlinkVo"
-              class="hyperlinkAe"
-              src="Images/Vorbereitung02.png"
-          /></a>
-          <a href="#containerAusfuehrung"
-            ><img
-              id="hyperlinkAus"
-              class="hyperlinkAe"
-              src="Images/Ausfuehrung02.png"
-          /></a>
+          <div class="hyperlinks">
+            <a href="#containerAufwaermen"
+              ><img
+                id="hyperlinkAuf"
+                class="hyperlinkAe"
+                src="Images/Aufwaermen02.png"
+            /></a>
+            <a href="#containerVorbereitung"
+              ><img
+                id="hyperlinkVo"
+                class="hyperlinkAe"
+                src="Images/Vorbereitung02.png"
+            /></a>
+            <a href="#containerAusfuehrung"
+              ><img
+                id="hyperlinkAus"
+                class="hyperlinkAe"
+                src="Images/Ausfuehrung02.png"
+            /></a>
+          </div>
         </div>
 
         <div class="wrapperText">
