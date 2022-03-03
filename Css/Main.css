@@ -140,9 +140,10 @@ a {
 }
 .platzhalter02 {
   width: 15%;
-  margin: 5%;
+  margin: 4%;
   border: 2px solid black;
   border-radius: 40px;
+  box-shadow: 3px 3px 5px rgb(0 0 0 / 40%);
 }
 /*
 
@@ -154,7 +155,7 @@ a {
 
 
 
-
+ 
 */
 @media (max-width: 600px) {
   .platzhalter02 {
