@@ -1,29 +1,25 @@
-.hyperlinkAe {
-    animation-name: startAnimation;
-    animation-duration: 1.2s;
-    animation-timing-function: ease-in-out;
-}
-
-#hyperlinkAuf {
-    animation-delay: 0.7s
+.hyperlinkAeAnimation {
+  animation-name: startAnimation;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1.2s;
 }
 
 #hyperlinkVo {
-    animation-delay: 0.9s
+  animation-delay: 0.2s;
 }
 
 #hyperlinkAus {
-    animation-delay: 1.1s
+  animation-delay: 0.4s;
 }
 
 @keyframes startAnimation {
-    0% {
-        transform: scale(1)
-    }
-    50% {
-        transform: scale(1.15)
-    }
-    100% {
-        transform: scale(1)
-    }
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
