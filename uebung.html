@@ -20,12 +20,9 @@
     <script src="JS/scrollScript.js"></script>
     <script src="JS/burgerMenu.js"></script>
     <script src="JS/contentLoader.js"></script>
+    <script src="JS/scaleAni.js"></script>
 
-    <script>
-        window.addEventListener("scroll", event => {
-            $(".hyperlinkAe").addClass("hyperlinkAeAnimation");
-        })
-    </script>
+   
 
 
 </head>
@@ -35,9 +32,12 @@
         <header>
 
             <div class="LogoFont">
+                
                 <a href="index.html">
                     <img class="Logo" src="Images/Logo-ICON2.png" alt="Logo" />
                 </a>
+                <div class="strichHeader"></div>
+                <h2 id="SeitenTitel"></h2>
             </div>
             <div class="nav-bar">
                 <ul class="nav-menu">
@@ -76,15 +76,15 @@
         />-->
         </header>
         <main>
-            <h2 id="SeitenTitel"></h2>
+            
             <div class="img_Hyplerlinks">
                 <img id="mainImage" class="bench" />
 
 
                 <div class="hyperlinks">
-                <a href="#containerAufwaermen"><img id="hyperlinkAuf" class="hyperlinkAe" src="Images/Aufwaermen02.png" /></a>
-                <a href="#containerVorbereitung"><img id="hyperlinkVo" class="hyperlinkAe" src="Images/Vorbereitung02.png" /></a>
-                <a href="#containerAusfuehrung"><img id="hyperlinkAus" class="hyperlinkAe" src="Images/Ausfuehrung02.png" /></a>
+                <a href="#containerAufwaermen"><img id="hyperlinkAuf" class="hyperlinkAe" src="Images/Aufwaermen02.png" /><p class="hyplerLinkText" id="textAuf">Aufwärmen</p></a>
+                <a href="#containerVorbereitung"><img id="hyperlinkVo" class="hyperlinkAe" src="Images/Vorbereitung03.png" /><p class="hyplerLinkText" id="textVo">Vorbereitung</p></a>
+                <a href="#containerAusfuehrung"><img id="hyperlinkAus" class="hyperlinkAe" src="Images/Ausfuehrung02.png" /><p class="hyplerLinkText" id="textAus">Ausführung</p></a>
                 </div>
             </div>
 
@@ -97,7 +97,7 @@
                     <div class="aufwaermenVideo">
                         <iframe id="aufwaermenLink" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <p1 id="aufwaermenText"></p1>
+                    <p id="aufwaermenText" class="text"></p>
                 </div>
 
                 <div id="containerVorbereitung">
@@ -109,7 +109,7 @@
                         <iframe id="vorbereitungLink" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
 
-                    <p2 id="vorbereitungText"></p2>
+                    <p id="vorbereitungText" class="text"></p>
                 </div>
 
                 <div id="containerAusfuehrung">
@@ -121,7 +121,7 @@
                         <iframe id="ausfuehrungLink" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
 
-                    <p2 id="ausfuehrungText"></p2>
+                    <p id="ausfuehrungText" class="text"></p>
                 </div>
             </div>
             <!--<div class="gotopcontainer">

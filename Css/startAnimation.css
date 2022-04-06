@@ -4,11 +4,13 @@
   animation-duration: 1.2s;
 }
 
-#hyperlinkVo {
+#hyperlinkVo,
+#textVo {
   animation-delay: 0.2s;
 }
 
-#hyperlinkAus {
+#hyperlinkAus,
+#textAus {
   animation-delay: 0.4s;
 }
 

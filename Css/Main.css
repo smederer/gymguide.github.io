@@ -104,6 +104,8 @@ h1 {
 }
 .Strich {
   width: 1.5px;
+  height: 50px;
+  background-color: white;
 }
 .LogoFont {
   position: absolute;
@@ -135,16 +137,44 @@ h1 {
   width: 100%;
   display: flex;
 }*/
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
 a {
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 300px;
+  margin: 30px;
+  border: 2px solid black;
+  border-radius: 2.5em;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 30%);
+  align-items: center;
 }
-.platzhalter02 {
+p {
+  text-align: center;
+  font-family: Roboto1;
+  color: black;
+  font-size: 1.4em;
+  margin-bottom: 5%;
+}
+
+/*.platzhalterBox{
   width: 15%;
   margin: 4%;
   border: 2px solid black;
   border-radius: 40px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}*/
+.platzhalter02 {
+  align-items: center;
+  width: 90%;
 }
+
 /*
 
 
@@ -158,8 +188,19 @@ a {
  
 */
 @media (max-width: 600px) {
+  main {
+    max-width: 450px;
+  }
   .platzhalter02 {
-    width: 40%;
-    margin: 4%;
+    width: 88%;
+  }
+  a {
+    width: 150px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 1.75em;
+  }
+  p {
+    font-size: 0.9em;
   }
 }

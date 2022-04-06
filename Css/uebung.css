@@ -71,7 +71,7 @@ header {
 .Hamburger {
   display: block;
   position: absolute;
-  top: 34%;
+  top: 37%;
   left: 5%;
   z-index: 10;
 }
@@ -104,7 +104,11 @@ h1 {
   width: 50px;
 
   float: left;
-  margin-top: 10px;
+}
+.strichHeader {
+  width: 1.5px;
+  height: 50px;
+  background-color: white;
 }
 
 .LogoFont {
@@ -113,6 +117,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 .LogoFont.active {
   background-color: #2b2d2f;
@@ -130,14 +135,12 @@ h1 {
   position: relative;
 }
 h2 {
-  width: 170px;
   font-family: Roboto1;
-  font-size: 1.6em;
+  font-size: 1.4em;
   /*text-align: right;
   padding-right: 20px;*/
-  padding-left: 15px;
-  padding-bottom: 10px;
-  border-bottom: 7px solid #fecd25;
+  color: white;
+  padding: 5px;
 }
 .img_Hyplerlinks {
   display: flex;
@@ -152,12 +155,6 @@ h2 {
   margin-top: auto;
 }
 
-p {
-  font-family: Roboto2;
-  margin-top: 20px;
-  padding-left: 10%;
-  padding-right: 10%;
-}
 .hyperlinks {
   display: flex;
   justify-content: center;
@@ -171,9 +168,25 @@ p {
   margin: 10px;
   width: 300px;
   border: 2px solid black;
-  border-radius: 10px;
+  border-radius: 25px;
   outline: none;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hyplerLinkText {
+  text-align: center;
+  font-family: Roboto1;
+  color: black;
+  font-size: 1.45em;
+  position: absolute;
+}
+a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 .hyperlinkAe:hover {
@@ -182,18 +195,19 @@ p {
 
 h6 {
   font-family: Roboto1;
-  font-size: 1.2em;
+  font-size: 1.45em;
   cursor: pointer;
   display: inline;
   line-height: 50px;
   border-bottom: 5px solid #fecd25;
 }
 
-p1 {
+.text {
   font-family: Roboto2;
-}
-p2 {
-  font-family: Roboto2;
+  line-height: 1.5;
+  margin-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .aufwaermenVideo {
@@ -269,22 +283,17 @@ p2 {
     width: 290px;
     height: auto;
   }
+
   .hyperlinkAe {
-    margin: 10px;
     width: 190px;
-    border: 2px solid black;
-    border-radius: 10px;
-    outline: none;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
   }
   .hyperlinks {
     margin: 20px auto;
     width: 279px;
     padding-bottom: 20px;
-    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
   }
 
   .aufwaermenVideo {

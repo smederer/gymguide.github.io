@@ -3,7 +3,7 @@
     {
       "uebungName": "Bankdrücken",
 
-      "mainImage": "Images/Geraete/Bankdruecken.png",
+      "mainImage": "Images/Geraete/BankdrueckenNoText.png",
 
       "aufwaermenLink": "https://www.youtube.com/embed/_4_3DFD0ARw",
 
@@ -21,7 +21,7 @@
     {
       "uebungName": "Beinbeuger",
 
-      "mainImage": "Images/Bench.png",
+      "mainImage": "Images/Geraete/BeinbeugerNoText.png",
 
       "aufwaermenLink": "https://www.youtube.com/embed/9YffrCViTVk",
 
@@ -39,7 +39,7 @@
     {
       "uebungName": "Beinstrecker",
 
-      "mainImage": "Images/Bench.png",
+      "mainImage": "Images/Geraete/BeinstreckerNoText.png",
 
       "aufwaermenLink": "https://www.youtube.com/embed/9YffrCViTVk",
 
@@ -75,7 +75,7 @@
     {
       "uebungName": "Cable Flyes",
 
-      "mainImage": "Images/Bench.png",
+      "mainImage": "Images/Geraete/cableFlyesNoText.png",
 
       "aufwaermenLink": "https://www.youtube.com/embed/9YffrCViTVk",
 
@@ -109,9 +109,9 @@
     },
 
     {
-      "uebungName": "Cest Supported Rear Detl Rows",
+      "uebungName": "Chest Supported Rear Detl Rows",
 
-      "mainImage": "Images/Bench.png",
+      "mainImage": "Images/Geraete/SchraegbankNoText.png",
 
       "aufwaermenLink": "https://www.youtube.com/embed/9YffrCViTVk",
 
@@ -129,7 +129,7 @@
     {
       "uebungName": "Squat",
 
-      "mainImage": "Images/Bench.png",
+      "mainImage": "Images/Geraete/SquatNoText.png",
 
       "aufwaermenLink": "https://www.youtube.com/embed/0d8svvqX1c0",
 
