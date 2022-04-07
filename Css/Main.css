@@ -192,14 +192,12 @@ p {
     padding: 10px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
     margin: initial;
-    font-family: Roboto1;
   }
   .nav-item {
     padding: 10px;
     font-size: 1.2em;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
     margin: initial;
-    font-family: Roboto1;
   }
   .last-nav-item {
     margin-bottom: 80px;
@@ -207,7 +205,6 @@ p {
     font-size: 1.2em;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
     margin: initial;
-    font-family: Roboto1;
   }
 
   .nav-link {

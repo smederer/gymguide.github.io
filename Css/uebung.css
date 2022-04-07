@@ -247,9 +247,10 @@ h6 {
     align-items: center;
     /*border-radius: 0px 40px 40px 40px;*/
     border-top: 1px solid #424245;
+    z-index: -1;
   }
   .nav-menu.active {
-    top: 13vh;
+    top: 88px;
   }
   .line {
     margin-top: 10px;
@@ -268,17 +269,20 @@ h6 {
     font-size: 1.2em;
     padding: 10px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    margin: initial;
   }
   .nav-item {
     padding: 10px;
     font-size: 1.2em;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    margin: initial;
   }
   .last-nav-item {
     margin-bottom: 80px;
     padding: 10px;
     font-size: 1.2em;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    margin: initial;
   }
 
   .nav-link {
