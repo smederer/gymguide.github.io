@@ -107,6 +107,15 @@ main {
   box-shadow: 5px 5px 10px rgb(0 0 0 / 30%);
   align-items: center;
 }
+.linkUebung:hover {
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 30%);
+}
+.linkUebung:hover .platzhalter02 {
+  transform: scale(1.1);
+}
+.linkUebung:hover .LogoFont {
+  z-index: 10;
+}
 p {
   text-align: center;
   font-family: Roboto1;
@@ -125,6 +134,8 @@ p {
 .platzhalter02 {
   align-items: center;
   width: 90%;
+  transition: 0.3s;
+  z-index: -1;
 }
 
 /*
