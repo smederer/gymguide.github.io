@@ -248,4 +248,10 @@ p {
   .Hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+  .linkUebung:hover {
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 30%);
+  }
+  .linkUebung:hover .platzhalter02 {
+    transform: scale(1);
+  }
 }
