@@ -175,7 +175,7 @@ h6 {
   align-items: flex-start;
   gap: 20px;
   padding-top: 20px;
-  border-top: 2px solid lightgrey;
+  border-top: 2px solid rgba(254, 205, 37, 0.5);
 }
 .videoWrapper {
   width: 50%;
