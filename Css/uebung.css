@@ -1,5 +1,5 @@
 .wrapperMain {
-  margin: 15vh auto;
+  margin: 133px auto;
   width: 100%;
   height: 300vh;
   display: block;
@@ -15,6 +15,7 @@ header {
 
   z-index: 1;
 }
+
 .nav-menu {
   display: flex;
   background-color: #2b2d2f;
@@ -65,7 +66,7 @@ h1 {
 }
 .backArrow {
   position: absolute;
-  right: 15px;
+  right: 5%;
   bottom: 30px;
   width: 30px;
 }
@@ -82,7 +83,6 @@ h1 {
   background-color: #2b2d2f;
 }
 main {
-  margin-top: 133px;
 }
 
 .Striche {
@@ -93,7 +93,7 @@ main {
 }
 
 .wrapperText {
-  margin: 20px;
+  margin: auto;
   position: relative;
 }
 h2 {
@@ -157,28 +157,34 @@ h2 {
 
 h6 {
   font-family: Roboto1;
-  font-size: 1.45em;
-  cursor: pointer;
-  display: inline;
-  line-height: 50px;
-  border-bottom: 5px solid #fecd25;
+  font-size: 1.8em;
+  margin-top: 80px;
+  text-align: center;
 }
 
 .text {
   font-family: Roboto2;
   line-height: 1.5;
-  margin-top: 20px;
-  padding-left: 10%;
-  padding-right: 10%;
+  font-size: 1.3em;
+  width: 50%;
+}
+.contentStyle {
+  margin: auto;
+  display: flex;
+  margin: 40px;
+  align-items: flex-start;
+  gap: 20px;
+  padding-top: 20px;
+  border-top: 2px solid lightgrey;
+}
+.videoWrapper {
+  width: 50%;
 }
 
 .aufwaermenVideo {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
-  height: 0;
-  margin-bottom: 10px;
-  margin-top: 20px;
 }
 .aufwaermenVideo iframe {
   position: absolute;
@@ -192,9 +198,6 @@ h6 {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
-  height: 0;
-  margin-bottom: 10px;
-  margin-top: 20px;
 }
 .vorbereitungVideo iframe {
   position: absolute;
@@ -208,9 +211,6 @@ h6 {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
-  height: 0;
-  margin-bottom: 10px;
-  margin-top: 20px;
 }
 .ausfuehrungVideo iframe {
   position: absolute;
@@ -234,6 +234,11 @@ h6 {
   top: 200px;
 }*/
 @media (max-width: 600px) {
+  .wrapperMain {
+    width: 100%;
+    margin: 93px auto;
+  }
+
   .nav-menu {
     position: fixed;
     top: -100%;
@@ -338,6 +343,22 @@ h6 {
     padding-bottom: 20px;
     justify-content: center;
     align-items: center;
+  }
+  h6 {
+    font: size 30px;
+  }
+  .contentStyle {
+    display: block;
+    margin: 20px;
+    padding-top: 0px;
+  }
+  .videoWrapper {
+    width: 100%;
+  }
+  .text {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.7;
   }
 
   .aufwaermenVideo {
