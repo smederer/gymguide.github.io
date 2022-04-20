@@ -1,8 +1,10 @@
 .wrapperMain {
   margin: 133px auto;
   width: 100%;
-  height: 300vh;
-  display: block;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
@@ -20,11 +22,13 @@ header {
   display: flex;
   background-color: #2b2d2f;
   height: 40px;
+  align-items: center;
+  justify-content: center;
 }
 .first-nav-item,
 .nav-item,
 .last-nav-item {
-  margin: auto;
+  margin: 25px;
   font-family: Roboto2;
 }
 
@@ -83,6 +87,7 @@ h1 {
   background-color: #2b2d2f;
 }
 main {
+  width: 80%;
 }
 
 .Striche {
@@ -233,10 +238,35 @@ h6 {
   max-width: 450px;
   top: 200px;
 }*/
+
+@media (max-width: 1500px) {
+  .contentStyle {
+    flex-wrap: wrap;
+    margin: 20px;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+  }
+  .videoWrapper {
+    width: 100%;
+  }
+  .text {
+    width: 100%;
+  }
+  h6 {
+    margin-bottom: 8px;
+  }
+}
+
 @media (max-width: 600px) {
   .wrapperMain {
     width: 100%;
     margin: 93px auto;
+  }
+  main {
+    width: initial;
   }
 
   .nav-menu {
@@ -253,6 +283,7 @@ h6 {
     /*border-radius: 0px 40px 40px 40px;*/
     border-top: 1px solid #424245;
     z-index: -1;
+    justify-content: flex-start;
   }
   .nav-menu.active {
     top: 88px;
@@ -348,64 +379,12 @@ h6 {
     font-size: 25px;
   }
   .contentStyle {
-    display: block;
-    margin: 20px;
-    padding-top: 0px;
+    width: 90%;
   }
-  .videoWrapper {
-    width: 100%;
-  }
+
   .text {
     width: 100%;
     font-size: 16px;
     line-height: 1.7;
-  }
-
-  .aufwaermenVideo {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-    margin-bottom: 10px;
-    margin-top: 20px;
-  }
-  .aufwaermenVideo iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-  .vorbereitungVideo {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-    margin-bottom: 10px;
-    margin-top: 20px;
-  }
-  .vorbereitungVideo iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-  .ausfuehrungVideo {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-    margin-bottom: 10px;
-    margin-top: 20px;
-  }
-  .ausfuehrungVideo iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
   }
 }

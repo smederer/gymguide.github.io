@@ -19,11 +19,13 @@ header {
   display: flex;
   background-color: #2b2d2f;
   height: 40px;
+  align-items: center;
+  justify-content: center;
 }
 .first-nav-item,
 .nav-item,
 .last-nav-item {
-  margin: auto;
+  margin: 25px;
   font-family: Roboto2;
 }
 
@@ -40,10 +42,15 @@ header {
   width: 0%;
   left: 0;
   bottom: -5px;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 .nav-link:hover::after {
   width: 100%;
+}
+
+.nav-link:hover {
+  color: #fecd25;
+  transition: 0.2s;
 }
 
 h1 {
@@ -94,21 +101,23 @@ main {
   justify-content: center;
   margin: auto;
   margin-top: 133px;
+  width: 80%;
 }
 .linkUebung {
   text-decoration: none;
   display: flex;
   flex-direction: column;
   height: auto;
-  width: 300px;
+  width: 180px;
   margin: 30px;
   border: 2px solid black;
-  border-radius: 2.5em;
+  border-radius: 1.7em;
   box-shadow: 5px 5px 10px rgb(0 0 0 / 30%);
   align-items: center;
+  transition: 0.3s;
 }
 .linkUebung:hover {
-  box-shadow: 10px 10px 10px rgb(0 0 0 / 30%);
+  box-shadow: 10px 10px 8px rgb(0 0 0 / 30%);
 }
 .linkUebung:hover .platzhalter02 {
   transform: scale(1.1);
@@ -116,12 +125,18 @@ main {
 .linkUebung:hover .LogoFont {
   z-index: 10;
 }
+
+.linkUebung:hover p {
+  transform: scale(1.1);
+}
 p {
   text-align: center;
   font-family: Roboto1;
   color: black;
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin-bottom: 5%;
+
+  transition: 0.3s;
 }
 
 /*.platzhalterBox{
@@ -148,12 +163,15 @@ p {
 
 
 
+
  
 */
+
 @media (max-width: 600px) {
   main {
     max-width: 450px;
     margin-top: 93px;
+    width: initial;
   }
   .platzhalter02 {
     width: 88%;
@@ -181,6 +199,7 @@ p {
     /*border-radius: 0px 40px 40px 40px;*/
     border-top: 1px solid #424245;
     z-index: -1;
+    justify-content: flex-start;
   }
   .nav-menu.active {
     top: 88px;
