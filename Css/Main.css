@@ -48,7 +48,6 @@ header {
 }
 
 .nav-link:hover {
-  color: #fecd25;
   transition: 0.2s;
 }
 
@@ -67,7 +66,7 @@ h1 {
 }
 .LogoFont {
   width: 100%;
-  height: 100%;
+  height: 93px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -197,7 +196,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0 3rem 0;
+  margin: 1rem 0 1rem 0;
 }
 
 .socials li {
@@ -207,9 +206,10 @@ footer {
 .socials a {
   text-decoration: none;
   color: #fff;
-
+  border: 1.1px solid white;
   padding: 5px;
   border-radius: 50%;
+  transition: 0.5s;
 }
 
 .socials a i {
@@ -218,13 +218,52 @@ footer {
   transition: color 0.4s ease;
 }
 
+.socials a:hover i {
+  color: #fecd25;
+}
 .socials a:hover {
-  color: aqua;
+  border-color: #fecd25;
+}
+
+.footer-bottom {
+  background: #000;
+
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.footer-bottom p {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  color: #cacdd2;
+  margin-bottom: initial;
+}
+.footer-bottom p a {
+  color: #fecd25;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-menu {
+  float: right;
+}
+
+.footer-menu ul li a {
+  color: #cfd2d6;
+  text-decoration: none;
+  font-family: Roboto1;
+  transition: 0.4s;
+}
+
+.footer-menu ul li a:hover {
+  color: #fecd25;
 }
 
 /*
 
-
+https://www.foolishdeveloper.com/2021/09/responsive-footer-design.html
 
 
 
@@ -344,9 +383,15 @@ footer {
   .Hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  .footer-menu ul {
-    display: flex;
-    margin-top: 10px;
-    margin-bottom: 20px;
+  .footer-bottom p a {
+    color: #fecd25;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .footer-bottom p {
+    font-size: 12px;
+  }
+  .footer-menu ul li a {
+    font-size: 12px;
   }
 }

@@ -99,6 +99,7 @@ main {
 .wrapperText {
   margin: auto;
   position: relative;
+  padding-bottom: 50px;
 }
 h2 {
   font-family: Roboto1;
@@ -233,12 +234,110 @@ h6 {
 .gottoparrow {
   width: 50px;
 }
+
+
 .gotopcontainer {
   position: fixed;
   width: 100%;
   max-width: 450px;
   top: 200px;
 }*/
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #2b2d2f;
+  padding-top: 10px;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: Roboto2;
+}
+.footer-content h3 {
+  font-size: 1.2em;
+
+  line-height: 3rem;
+  color: #cacdd2;
+}
+.footer-content p {
+  font-size: 14px;
+  color: #cacdd2;
+  font-family: Roboto2;
+  margin-bottom: 10px;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 1rem 0;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color 0.4s ease;
+}
+
+.socials a:hover i {
+  color: #fecd25;
+}
+.socials a:hover {
+  border-color: #fecd25;
+}
+
+.footer-bottom {
+  background: #000;
+
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.footer-bottom p {
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  color: #cacdd2;
+  margin-bottom: initial;
+  font-family: "Roboto1";
+}
+.footer-bottom p a {
+  color: #fecd25;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-menu {
+  float: right;
+}
+
+.footer-menu ul li a {
+  color: #cfd2d6;
+  text-decoration: none;
+  font-family: Roboto1;
+  transition: 0.4s;
+}
+
+.footer-menu ul li a:hover {
+  color: #fecd25;
+}
 
 @media (max-width: 1500px) {
   .contentStyle {
