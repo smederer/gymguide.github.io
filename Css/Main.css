@@ -280,6 +280,7 @@ https://www.foolishdeveloper.com/2021/09/responsive-footer-design.html
   main {
     max-width: 447px;
     margin-top: 93px;
+    padding-top: 10px;
     width: initial;
   }
   .platzhalter02 {

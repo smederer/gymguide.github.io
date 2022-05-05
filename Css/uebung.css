@@ -457,6 +457,9 @@ footer {
   .img_Hyplerlinks {
     display: block;
   }
+  .backArrow {
+    bottom: 30px;
+  }
   .bench {
     display: block;
     margin-left: auto;
@@ -477,6 +480,7 @@ footer {
     justify-content: center;
     align-items: center;
   }
+
   h6 {
     font-size: 25px;
   }
