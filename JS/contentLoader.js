@@ -34,7 +34,7 @@ $(document).ready(function () {
 
 function populate(i) {
   $.getJSON("JS/contents.json", function (jd) {
-    document.title = "MyGym/" + jd.uebungen[i].uebungName;
+    document.title = "Gymgiude/" + jd.uebungen[i].uebungName;
     $("#SeitenTitel").text(jd.uebungen[i].uebungName);
     $("#mainImage").attr("src", jd.uebungen[i].mainImage);
     $("#aufwaermenLink").attr("src", jd.uebungen[i].aufwaermenLink);
