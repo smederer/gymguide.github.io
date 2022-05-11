@@ -1,3 +1,6 @@
+* {
+  scroll-behavior: smooth;
+}
 .wrapperMain {
   width: 100%;
   justify-content: center;
@@ -261,6 +264,32 @@ footer {
 .footer-menu ul li a:hover {
   color: #fecd25;
 }
+.gotop {
+  position: sticky;
+  bottom: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+}
+.gotop a {
+  display: flex;
+  float: right;
+}
+
+.gotopArrow {
+  width: 40%;
+  background-color: #2b2d2f;
+  border: 6px solid #2b2d2f;
+  border-radius: 50%;
+  box-shadow: 1px 1px 15px 1px rgb(0 0 0 / 50%);
+  transition: 0.4s;
+}
+.gotopArrow:hover {
+  background-color: #fecd25;
+  border: 6px solid #fecd25;
+  transform: scale(1.1);
+}
 
 /*
 
@@ -395,5 +424,17 @@ https://www.foolishdeveloper.com/2021/09/responsive-footer-design.html
   }
   .footer-menu ul li a {
     font-size: 12px;
+  }
+  .footer-menu ul li a:hover {
+    color: #cfd2d6;
+  }
+  .socials a:hover i {
+    color: unset;
+  }
+  .socials a:hover {
+    border-color: unset;
+  }
+  .gotopArrow {
+    display: none;
   }
 }

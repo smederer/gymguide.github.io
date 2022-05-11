@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyGym</title>
@@ -9,7 +8,10 @@
     <link rel="stylesheet" href="fonts.css" />
     <link rel="stylesheet" href="Css/uebung.css" />
     <link rel="stylesheet" href="Css/startAnimation.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    />
     <!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
         <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.yellow-lime.min.css"/>
         <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>-->
@@ -26,123 +28,152 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+  </head>
 
-   
-
-
-</head>
-
-<body>
+  <body>
     <div class="wrapperMain" id="top">
-        <header>
+      <header>
+        <div class="LogoFont">
+          <a href="index.html">
+            <img class="Logo" src="Images/Logo-ICON2.png" alt="Logo" />
+          </a>
+          <div class="strichHeader"></div>
+          <h2 id="SeitenTitel"></h2>
+          <a href="index.html"
+            ><img class="backArrow" src="Images/backArrow.png"
+          /></a>
+        </div>
+        <div class="nav-bar">
+          <ul class="nav-menu">
+            <li class="first-nav-item">
+              <a href="index.html" class="nav-link"
+                >Home<span class="line"></span
+              ></a>
+            </li>
 
-            <div class="LogoFont">
-                
-                <a href="index.html">
-                    <img class="Logo" src="Images/Logo-ICON2.png" alt="Logo" />
-                </a>
-                <div class="strichHeader"></div>
-                <h2 id="SeitenTitel"></h2>
-                <a href="index.html"><img class="backArrow" src="Images/backArrow.png"></a>
-                
-            </div>
-            <div class="nav-bar">
-                <ul class="nav-menu">
-                    <li class="first-nav-item">
-                        <a href="#" class="nav-link">Home<span class="line"></span></a>
-                    </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Kontakt<span class="line"></span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Über<span class="line"></span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                >Ernährung<span class="line"></span
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                >Trainingsplan<span class="line"></span
+              ></a>
+            </li>
+            <li class="last-nav-item">
+              <a href="#" class="nav-link">Filter<span class="line"></span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="Hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
 
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Kontakt<span class="line"></span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Über<span class="line"></span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Ernährung<span class="line"></span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Trainingsplan<span class="line"></span></a>
-                    </li>
-                    <li class="last-nav-item">
-                        <a href="#" class="nav-link">Filter<span class="line"></span></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="Hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-
-
-            <!--<img
+        <!--<img
           class="Striche"
           src="Images/Stripes_Zeichenfl%C3%A4che%201.png"
           alt="Striche"
         />-->
-        </header>
-        <main>
+      </header>
+      <main>
+        <div class="img_Hyplerlinks">
+          <img id="mainImage" class="bench" />
 
-            <div class="img_Hyplerlinks">
-                <img id="mainImage" class="bench" />
+          <div class="hyperlinks">
+            <a href="#containerAufwaermen" class="hyperlinkA"
+              ><img
+                id="hyperlinkAuf"
+                class="hyperlinkAe"
+                src="Images/Aufwaermen02.png"
+              />
+              <p class="hyplerLinkText" id="textAuf">Aufwärmen</p></a
+            >
+            <a href="#containerVorbereitung" class="hyperlinkA"
+              ><img
+                id="hyperlinkVo"
+                class="hyperlinkAe"
+                src="Images/Vorbereitung03.png"
+              />
+              <p class="hyplerLinkText" id="textVo">Vorbereitung</p></a
+            >
+            <a href="#containerAusfuehrung" class="hyperlinkA"
+              ><img
+                id="hyperlinkAus"
+                class="hyperlinkAe"
+                src="Images/Ausfuehrung02.png"
+              />
+              <p class="hyplerLinkText" id="textAus">Ausführung</p></a
+            >
+          </div>
+        </div>
 
+        <div class="wrapperText">
+          <div id="containerAufwaermen">
+            <h6>Aufwärmen</h6>
+          </div>
+          <div class="contentStyle">
+            <div class="videoWrapper">
+              <div class="aufwaermenVideo">
+                <iframe
+                  id="aufwaermenLink"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <p id="aufwaermenText" class="text"></p>
+          </div>
 
-                <div class="hyperlinks">
-                <a href="#containerAufwaermen" class="hyperlinkA"><img id="hyperlinkAuf" class="hyperlinkAe" src="Images/Aufwaermen02.png" /><p class="hyplerLinkText" id="textAuf">Aufwärmen</p></a>
-                <a href="#containerVorbereitung" class="hyperlinkA"><img id="hyperlinkVo" class="hyperlinkAe" src="Images/Vorbereitung03.png" /><p class="hyplerLinkText" id="textVo">Vorbereitung</p></a>
-                <a href="#containerAusfuehrung" class="hyperlinkA"><img id="hyperlinkAus" class="hyperlinkAe" src="Images/Ausfuehrung02.png" /><p class="hyplerLinkText" id="textAus">Ausführung</p></a>
-                </div>
+          <div id="containerVorbereitung">
+            <h6>Vorbereitung</h6>
+          </div>
+          <div class="contentStyle">
+            <div class="videoWrapper">
+              <div class="vorbereitungVideo">
+                <iframe
+                  id="vorbereitungLink"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </div>
 
-            <div class="wrapperText">
-                
-                <div id="containerAufwaermen">
-                    <h6>Aufwärmen</h6>
-                </div>
-                <div class="contentStyle">
-                    <div class="videoWrapper" >
-                        <div class="aufwaermenVideo">
-                            <iframe id="aufwaermenLink" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <p id="aufwaermenText" class="text"></p>
-                </div>
+            <p id="vorbereitungText" class="text"></p>
+          </div>
 
-               
-                <div id="containerVorbereitung">
-                    <h6>Vorbereitung</h6>
-                </div>
-                <div class="contentStyle">
-                    <div class="videoWrapper" >
-                        <div class="vorbereitungVideo">
-                            <iframe id="vorbereitungLink" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
-
-                    <p id="vorbereitungText" class="text"></p>
-                </div>
-
-                
-                <div id="containerAusfuehrung">
-                    <h6>Ausführung</h6>
-                </div>
-                <div class="contentStyle">
-                    <div class="videoWrapper" >
-                        <div class="ausfuehrungVideo">
-                            <iframe id="ausfuehrungLink" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <p id="ausfuehrungText" class="text"></p>
-                </div>
+          <div id="containerAusfuehrung">
+            <h6>Ausführung</h6>
+          </div>
+          <div class="contentStyle">
+            <div class="videoWrapper">
+              <div class="ausfuehrungVideo">
+                <iframe
+                  id="ausfuehrungLink"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </div>
-            <!--<div class="gotopcontainer">
-          <a class="gotop" href="#top">
-            <img class="gottoparrow" src="Images/TopArrow.png" />
-          </a>-->
-    </div>
-    </main>
-    <footer>
+            <p id="ausfuehrungText" class="text"></p>
+          </div>
+        </div>
+      </main>
+      <div class="gotop">
+        <a href="#top"> <img class="gotopArrow" src="Images/topArrow.png" /></a>
+      </div>
+      <footer>
         <div class="footer-content">
           <h3>GYMGUIDE</h3>
           <p>Ein Projekt der Klasse 4AHMNS von der HTBLuVA Salzburg.</p>
@@ -180,6 +211,5 @@
       </div>
     </div>
     <div id="end"></div>
-</body>
-
+  </body>
 </html>

@@ -2,7 +2,7 @@
   margin-top: 133px;
   width: 100%;
   background-color: #f5f5f7;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
 }
@@ -88,7 +88,9 @@ h1 {
   background-color: #2b2d2f;
 }
 main {
+  padding-top: 40px;
   width: 80%;
+  margin: auto;
 }
 
 .Striche {
@@ -229,21 +231,6 @@ h6 {
   height: 100%;
 }
 
-/*.gotop {
-  position: absolute;
-  right: 20px;
-}
-.gottoparrow {
-  width: 50px;
-}
-
-
-.gotopcontainer {
-  position: fixed;
-  width: 100%;
-  max-width: 450px;
-  top: 200px;
-}*/
 footer {
   width: 100%;
   height: auto;
@@ -339,6 +326,32 @@ footer {
 
 .footer-menu ul li a:hover {
   color: #fecd25;
+}
+.gotop {
+  position: sticky;
+  bottom: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+}
+.gotop a {
+  display: flex;
+  float: right;
+}
+
+.gotopArrow {
+  width: 40%;
+  background-color: #2b2d2f;
+  border: 6px solid #2b2d2f;
+  border-radius: 50%;
+  box-shadow: 1px 1px 15px 1px rgb(0 0 0 / 50%);
+  transition: 0.4s;
+}
+.gotopArrow:hover {
+  background-color: #fecd25;
+  border: 6px solid #fecd25;
+  transform: scale(1.1);
 }
 
 @media (max-width: 1500px) {
@@ -492,5 +505,28 @@ footer {
     width: 100%;
     font-size: 16px;
     line-height: 1.7;
+  }
+  .footer-bottom p a {
+    color: #fecd25;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .footer-bottom p {
+    font-size: 12px;
+  }
+  .footer-menu ul li a {
+    font-size: 12px;
+  }
+  .footer-menu ul li a:hover {
+    color: #cfd2d6;
+  }
+  .socials a:hover i {
+    color: unset;
+  }
+  .socials a:hover {
+    border-color: unset;
+  }
+  .gotopArrow {
+    display: none;
   }
 }
