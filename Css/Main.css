@@ -13,7 +13,7 @@ header {
   top: 0;
   z-index: 5;
   display: table;
-  box-shadow: 0px 7px 11px 2px rgb(0 0 0 / 48%);
+  box-shadow: 0px 5px 11px 2px rgb(0 0 0 / 48%);
 }
 .nav-menu {
   display: flex;
@@ -280,7 +280,7 @@ https://www.foolishdeveloper.com/2021/09/responsive-footer-design.html
   main {
     max-width: 447px;
     margin-top: 93px;
-    padding-top: 10px;
+    padding-top: 28px;
     width: initial;
   }
   .platzhalter02 {
