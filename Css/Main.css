@@ -1,8 +1,12 @@
 * {
   scroll-behavior: smooth;
 }
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
 .wrapperMain {
-  width: 100%;
+  width: 100vw;
   justify-content: center;
   background-color: #f5f5f7;
 }
@@ -305,7 +309,7 @@ https://www.foolishdeveloper.com/2021/09/responsive-footer-design.html
  
 */
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   main {
     max-width: 447px;
     margin-top: 93px;
