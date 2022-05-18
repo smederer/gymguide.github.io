@@ -297,7 +297,7 @@ footer {
 
 /*
 
-https://www.foolishdeveloper.com/2021/09/responsive-footer-design.html
+
 
 
 
@@ -392,6 +392,9 @@ https://www.foolishdeveloper.com/2021/09/responsive-footer-design.html
     color: white;
     text-decoration: none;
     /*border-style: solid;*/
+  }
+  .nav-link::after {
+    display: none;
   }
 
   .Hamburger {
